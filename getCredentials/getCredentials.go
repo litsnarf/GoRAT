@@ -14,7 +14,7 @@ import (
 	"os"
 	"os/user"
 	"path/filepath"
-	"../log"
+	"github.com/litsnarf/GoRAT/log"
 
 
 	"golang.org/x/net/context"

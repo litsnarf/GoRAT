@@ -8,8 +8,8 @@ package main
 import (
 	"github.com/jessevdk/go-flags"
 	"os"
-	"./getCredentials"
-	"./log"
+	"github.com/litsnarf/GoRAT/getCredentials"
+	"github.com/litsnarf/GoRAT/log"
 	"path/filepath"
 	"bufio"
 	"fmt"
