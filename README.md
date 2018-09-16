@@ -27,6 +27,9 @@ go get github.com/litsnarf/GoRAT
 go get -u github.com/gobuffalo/packr/...
 ```
 
+![](poc.gif)
+
+
 Before you can use the RAT you need to have the file `client_secrets.json` (check the [Create Google User](#4) section at the end). This file contains the API token and other things that will allow the RAT to actually communicate with Google API. If you use the `credentials.json` file (obtained from google when enabling the API) it will require you to always confirm. Since we want to automate the communication, we are going to hard-code this information in the RAT. #TODO: find a better solution?
 
 ### Create Google User
@@ -93,5 +96,3 @@ GoRat (main folder)
 
 ## Notes
 I'm not a developer, so the code is kinda bad! If you want to help with ideas, improve the project, etc, feel free to ping me.
-
-![](poc.gif)
