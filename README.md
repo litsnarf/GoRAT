@@ -93,3 +93,5 @@ GoRat (main folder)
 
 ## Notes
 I'm not a developer, so the code is kinda bad! If you want to help with ideas, improve the project, etc, feel free to ping me.
+
+![](poc.gif)
