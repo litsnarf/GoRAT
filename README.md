@@ -36,7 +36,7 @@ Before you can use the RAT you need to have the file `client_secrets.json` (chec
 - Create a google user
 - Follow this guide to get and enable google API: https://developers.google.com/drive/api/v3/quickstart/go
   - Enable Drive API etc...
-  - Download Client Configuration file (credentials.json) and save it in the `GoRat/cmd/commando/secrets/[ratname]/credentials.json` file of the project
+  - Download Client Configuration file (credentials.json) and save it in the `GoRat/secrets/[ratname]/credentials.json` file of the project
 - Go to: https://console.developers.google.com/apis/api/sheets.googleapis.com
   - Be sure you have selected the correct project in the top left nav-bar
   - Click on "Enable Sheets API"
